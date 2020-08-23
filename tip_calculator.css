@@ -1,0 +1,89 @@
+body{
+    background-color: black;
+}
+#calculator{
+    position: absolute;
+    top: 10%;
+    left: 33%;
+    background-color: rgb(43, 226, 226);
+    width: 500px;
+    height: 600px;
+    box-shadow: 3px 3px 5px rgb(82, 233, 82);
+}
+#title{
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    background-color: rgb(238, 127, 210);
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+h3{
+    position: relative;
+    top: 90px;
+    left: 30px;
+}
+#amount{
+    position: relative;
+    top: 100px;
+    text-align: center;
+}
+#amount input{
+    text-align: center;
+    height: 40px;
+    font-size: 30px;
+    width: 60%;
+}
+input::-webkit-inner-spin-button,input::-webkit-outer-spin-button{
+    -webkit-appearance: none;
+    margin: 0px;
+}
+#rate{
+    position: relative;
+    top: 90px;
+    text-align: center;
+    margin: 0px;
+}
+#service{
+    width: 60%;
+    height: 40px;
+    font-size: 20px;
+}
+#person{
+    position: relative;
+    top: 90px;
+    text-align: center;
+    margin: 0px;
+}
+#no{
+    width: 60%;
+    height: 40px;
+    font-size: 20px;
+}
+button{
+    position: relative;
+    top: 120px;
+    left: 30%;
+    width: 40%;
+    box-sizing: border-box;
+    margin: 0px;
+    height: 40px;
+    color: cornsilk;
+    background-color: rgb(84, 87, 230);
+    outline: none;
+    box-shadow: 2px 2px 2px rgb(105, 105, 241);
+    border: none;
+}
+label{
+    position: relative;
+    top: 140px;
+    left: 25%;
+    border: 1px solid black;
+    width: 50%;
+    height: 40px;
+    box-sizing: border-box;
+    display: block;
+    background-color: rgb(195, 248, 248);
+    text-align: center;
+    font-size: 30px;
+}
